@@ -926,35 +926,38 @@
    		<div class="col-twelve">
 
             <!-- form -->
-						<form name="contactForm" id="contactForm" method="post" action="https://api.staticforms.xyz/submit">
-							<fieldset>
-				 <input type="hidden" name="accessKey" value="e198f527-6e5f-4a64-b830-014377b8e752">
-										<div class="form-field">
-									<input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
-										</div>
-										<div class="form-field">
-									 <input name="email" type="email" id="contactEmail" placeholder="Email" value="" required="">
-									 </div>
-										<div class="form-field">
-										<input name="subject" type="text" id="contactSubject" placeholder="Subject" value="">
-									 </div>                       
-										<div class="form-field">
-											 <textarea name="message" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
-									 </div>                      
-									 <div class="form-field">
-											 <button class="submitform">Submit</button>
-											 <div id="submit-loader">
-													<div class="text-loader">Sending...</div>                             
-											 <div class="s-loader">
-											<div class="bounce1"></div>
-											<div class="bounce2"></div>
-											<div class="bounce3"></div>
-									</div>
+						<form name="contactForm" action="https://api.staticforms.xyz/submit" method="post" id="staticform">
+						<input type="hidden" name="accessKey" value="e198f527-6e5f-4a64-b830-014377b8e752">
+      			<fieldset>
+                  <div class="form-field">
+ 						   <input name="name" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+                  </div>
+                  <div class="form-field">
+	      			   <input name="email" type="email" id="contactEmail" placeholder="Email" value="" required="">
+	               </div>
+                  <div class="form-field">
+	     				   <input name="subject" type="text" id="contactSubject" placeholder="Subject" value="">
+	               </div>                       
+                  <div class="form-field">
+	                 	<textarea name="message" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+	               </div>   
+								 <input type="text" name="honeypot" style="display: none;">  
+								<input type="hidden" name="redirectTo" value="#about"> 
+               
+                 <div class="form-field">
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
 								</div>
-										</div>
-	
-							</fieldset>
-												</form> <!-- Form End -->
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
 
             <!-- contact-warning -->
             <div id="message-warning">            	
@@ -1039,9 +1042,7 @@
 
       	<div class="col-eight tab-full">
 	      	<div class="copyright">
-		        	<span>© Copyright 2018 </span> 
-		        	<span>Design by <a href="http://www.styleshout.com/">styleshout</a></span> 
-		        	<span>Distributed by <a href="https://themewagon.com/">themewagon</a></span>	         	
+		        	<span>© Copyright 2022 </span>       	
 		         </div>		                  
 	      	</div>
 
