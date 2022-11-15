@@ -1435,6 +1435,10 @@ header .logo a {
 .intro-social li a, .intro-social li a:visited {
 	color: #FFFFFF;
 }
+.more_details{
+	color: #cc005f;
+	font-size:10px
+}
 .intro-social li a:hover, .intro-social li a:focus {
 	color: #cc005f;
 }
@@ -1821,6 +1825,8 @@ header .logo a {
 	padding: 0;
 	position: relative;
 	overflow: hidden;
+	border: 21px solid #EBEBEB;
+	border-radius: 33px;
 }
 #portfolio .folio-item img {
 	vertical-align: middle;
@@ -2548,6 +2554,9 @@ footer .footer-social li a {
 }
 footer .copyright span {
 	display: inline-block;
+}
+.copyright{
+	text-align:center;
 }
 footer .copyright span::after {
 	content: "|";
