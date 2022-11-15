@@ -49,6 +49,18 @@
 html {
 	font-size: 10px;
 }
+.success{
+	color: #FFFFFF;
+    font-family: "poppins-medium", sans-serif;
+    font-size: 6.4rem;
+    line-height: 1.071;
+    max-width: 900px;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 0 20px rgb(0 0 0 / 50%);
+}
 
 @media only screen and (max-width:1024px) {
 	html {
@@ -93,6 +105,7 @@ a:hover, a:focus, a:active {
 	color: #FF0077;
 	outline: 0;
 }
+
 
 /** 
  * ===================================================================
@@ -774,6 +787,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	background-color: #ffd1d2;
 	color: #e65153;
 }
+
 .ss-success {
 	background-color: #c8e675;
 	color: #758c36;
@@ -1337,7 +1351,7 @@ header .logo a {
 	line-height: 1.071;
 	max-width: 900px;
 	margin-top: 0;
-	margin-bottom: .6rem;
+	margin-bottom: 3.6rem;
 	margin-left: auto;
 	margin-right: auto;
 	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
